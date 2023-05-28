@@ -1,4 +1,4 @@
-﻿<!-- SUMMARY -->
+<!-- SUMMARY -->
 # Summary
 
 * [Git/](Git/)
@@ -38,4 +38,6 @@
   * [34.拉取共享变更](Git/34.拉取共享变更.md)
   * [35.托管Git仓库](Git/35.托管Git仓库.md)
   * [36.常见问题](Git/36.常见问题.md)
+* [GItHub/](GItHub/)
+  * [如何向他人的项目提交内容](GItHub/如何向他人的项目提交内容.md)
 * [README](README.md)
