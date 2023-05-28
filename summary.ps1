@@ -1,11 +1,14 @@
 $folderPath = Get-Location
-$summaryFile = Join-Path -Path $folderPath -ChildPath "summary.md"
+$summaryFile = Join-Path -Path $folderPath -ChildPath "SUMMARY.md"
 
 # 指定要排除的文件夹列表
 $excludedFolders = @("images")
 
 # 指定要排除的文件类型
-$excludedExtensions = @(".png",".ps1")
+$excludedExtensions = @(".png", ".ps1")
+
+# 指定要排除的文件列表
+$excludedFiles = @("SUMMARY.md")
 
 function GenerateSummary {
     param (
@@ -24,7 +27,7 @@ function GenerateSummary {
             }
         }
         else {
-            if ($excludedExtensions -notcontains $item.Extension.ToLower()) {
+            if ($excludedExtensions -notcontains $item.Extension.ToLower() -and $excludedFiles -notcontains $item.Name) {
                 $itemName = $item.Name -replace '\.[^.]+$' -replace '\s', ''
                 $itemPath = $item.FullName.Replace($folderPath, "").Replace("\", "/").TrimStart("/")
                 Write-Output "$indentation* [$itemName]($itemPath)"
