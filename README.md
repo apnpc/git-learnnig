@@ -11,7 +11,7 @@
 1. 本教程基于 Windows 10 操作系统，Git 版本 version 2.40.1.windows.1
 2. 必须动手，请按照实验内容自己敲一遍；
 3. 请配合 Git 官方书籍 [《Git pro》](https://git-scm.com/book/zh/v2)查缺补漏；
-4. 命令展示说明
+4. 命令展示说明。
 
 ```PowerShell
 # 这条是注释
