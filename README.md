@@ -1,4 +1,4 @@
-# README
+# git-learnnig
 
 ## 目的
 
