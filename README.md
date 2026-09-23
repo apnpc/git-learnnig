@@ -20,7 +20,7 @@ lastUpdated: 2026-09-23
 
 ## 📚 在线阅读
 
-**GitBook 在线文档**：[点击访问](https://apnpc.github.io/git-learnnig/) _(配置完成后可用)_
+**在线文档**：[https://apnpc.github.io/git-learnnig/](https://apnpc.github.io/git-learnnig/)
 
 ## ✨ 课程特色
 
@@ -146,24 +146,21 @@ cd git-learnnig
 ### 2️⃣ 选择学习方式
 
 **方式一：在线阅读（推荐）**
-- 访问 GitBook 在线文档：[https://apnpc.github.io/git-learnnig/](https://apnpc.github.io/git-learnnig/)
+- 访问在线文档：[https://apnpc.github.io/git-learnnig/](https://apnpc.github.io/git-learnnig/)
 
 **方式二：本地阅读**
-- 使用 Markdown 阅读器打开 `SUMMARY.md` 查看完整目录
+- 使用 Markdown 阅读器打开 `_sidebar.md` 查看完整目录
 - 按顺序阅读 `Git/` 目录下的教程文件
 
-**方式三：本地运行 GitBook**
+**方式三：本地运行文档服务**
 ```bash
-# 安装 Honkit（GitBook 的现代替代品，完全兼容）
-npm install -g honkit
-
-# 安装依赖
-honkit install
+# 安装 docsify-cli
+npm install -g docsify-cli
 
 # 启动本地服务器
-honkit serve
+docsify serve .
 
-# 访问 http://localhost:4000
+# 访问 http://localhost:3000
 ```
 
 ### 3️⃣ 开始学习
