@@ -11,7 +11,7 @@ $excludedFiles = @("SUMMARY.md")
 #文件名称检查
 # 获取所有的文件
 Get-ChildItem -Path $folderPath -Recurse -File | ForEach-Object {
-    $newname = $_.Name.Replace(" ", "") # 将文件名中的空格替换为空格
+    $newname = $_.Name.Replace(" ", "") # 移除文件名中的空格
     if ($newname -ne $_.Name) { # 如果文件名发生了更改
         Rename-Item -Path $_.FullName -NewName $newname
     }
@@ -19,7 +19,7 @@ Get-ChildItem -Path $folderPath -Recurse -File | ForEach-Object {
 
 # 获取所有的文件夹
 Get-ChildItem -Path $folderPath -Recurse -Directory | ForEach-Object {
-    $newname = $_.Name.Replace(" ", "") # 将文件夹名中的空格替换为空格
+    $newname = $_.Name.Replace(" ", "") # 移除文件夹名中的空格
     if ($newname -ne $_.Name) { # 如果文件夹名发生了更改
         Rename-Item -Path $_.FullName -NewName $newname
     }
