@@ -1,3 +1,13 @@
+---
+title: "Git 实战案例集"
+description: "收录真实项目中的 Git 使用场景和解决方案，帮助开发者在实际工作中更好地应用 Git"
+type: reference
+group: "实战案例"
+sidebar:
+  order: 0
+lastUpdated: 2026-09-23
+---
+
 # Git 实战案例集
 
 本目录收录了真实项目中遇到的 Git 使用场景和解决方案，帮助你在实际工作中更好地应用 Git。
@@ -67,7 +77,7 @@
 如果你还不熟悉 Git 基础知识，建议先学习：
 
 - [基础篇](../01-初识-Git.md)：Git 核心概念
-- [高级篇](../../Advanced/README.md)：Git 高级技巧
+- [高级篇](../Advanced/README.md)：Git 高级技巧
 
 ---
 

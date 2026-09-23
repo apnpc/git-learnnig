@@ -50,13 +50,13 @@
 * GitLab
   * [安装 GitLab](GitLab/01-安装-GitLab.md)
 * 高级篇
-  * [高级篇说明](Advanced/README.md)
-  * [01.交互式暂存与提交整理](Advanced/01-交互式暂存与提交整理.md)
-  * [02.储藏与多工作树](Advanced/02-储藏与多工作树.md)
-  * [03.挑选提交与定位问题](Advanced/03-挑选提交与定位问题.md)
-  * [04.安全地改写历史](Advanced/04-安全地改写历史.md)
-  * [05.子模块](Advanced/05-子模块.md)
-  * [06.钩子与自动化](Advanced/06-钩子与自动化.md)
-  * [07.仓库清理与敏感信息处理](Advanced/07-仓库清理与敏感信息处理.md)
+  * [高级篇说明](Git/Advanced/README.md)
+  * [01.交互式暂存与提交整理](Git/Advanced/01-交互式暂存与提交整理.md)
+  * [02.储藏与多工作树](Git/Advanced/02-储藏与多工作树.md)
+  * [03.挑选提交与定位问题](Git/Advanced/03-挑选提交与定位问题.md)
+  * [04.安全地改写历史](Git/Advanced/04-安全地改写历史.md)
+  * [05.子模块](Git/Advanced/05-子模块.md)
+  * [06.钩子与自动化](Git/Advanced/06-钩子与自动化.md)
+  * [07.仓库清理与敏感信息处理](Git/Advanced/07-仓库清理与敏感信息处理.md)
 * 实战案例
   * [01.分支落后时的合并策略](Git/cases/01-分支落后时的合并策略.md)
