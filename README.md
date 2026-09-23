@@ -154,14 +154,14 @@ cd git-learnnig
 
 **方式三：本地运行 GitBook**
 ```bash
-# 安装 GitBook CLI
-npm install -g gitbook-cli
+# 安装 Honkit（GitBook 的现代替代品，完全兼容）
+npm install -g honkit
 
 # 安装依赖
-gitbook install
+honkit install
 
 # 启动本地服务器
-gitbook serve
+honkit serve
 
 # 访问 http://localhost:4000
 ```

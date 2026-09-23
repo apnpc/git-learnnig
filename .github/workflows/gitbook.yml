@@ -27,17 +27,17 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Install GitBook CLI
+      - name: Install Honkit (GitBook alternative)
         run: |
-          npm install -g gitbook-cli
+          npm install -g honkit
 
-      - name: Install GitBook plugins
+      - name: Install plugins
         run: |
-          gitbook install
+          honkit install
 
-      - name: Build GitBook
+      - name: Build documentation
         run: |
-          gitbook build
+          honkit build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
