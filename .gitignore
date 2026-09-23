@@ -20,12 +20,16 @@ ehthumbs.db
 *.swp
 *.swo
 *.swn
-*~
 .project
 .classpath
 .settings/
 *.sublime-project
 *.sublime-workspace
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
 
 # Temporary files
 *.tmp

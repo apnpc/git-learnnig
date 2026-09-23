@@ -1,19 +1,42 @@
-# git-learnnig
+---
+title: "Git Learning"
+description: "面向初学者的 Git 基础、协作与高级主题课程入口。"
+type: concept
+group: "课程说明"
+sidebar:
+  order: 0
+lastUpdated: 2026-09-23
+---
+# Git Learning
 
 ## 目的
 
-本课程旨在为初学者提供一个全面而简洁的介绍，让你快速掌握 Git 的基本概念和使用方法。无论你是一名软件开发新手、项目经理还是对版本控制感兴趣的任何人，本课程都将为你建立起坚实的Git基础。
+本课程面向 Git 初学者，先建立工作区、暂存区、提交、分支和远程仓库的完整模型，再通过实验掌握常用操作。
 
 主打的就是一个简单，每个小节都涉及到 Git 的核心知识，并有相关的实验，相信你在阅读完后会对 Git 有一个比较全面的认识。
 
 ## 注意事项
 
-1. 本教程基于 Windows 10 操作系统，Git 版本 version 2.40.1.windows.1
+1. 示例主要使用 PowerShell。不同系统的路径写法可能不同，但 Git 命令相同；
 2. 必须动手，请按照实验内容自己敲一遍；
-3. 请配合 Git 官方书籍 [《Git pro》](https://git-scm.com/book/zh/v2)查缺补漏；
-4. 命令展示说明。
+3. 示例中的提交哈希仅用于说明，请使用自己仓库产生的哈希；
+4. 请配合 Git 官方书籍 [《Pro Git》](https://git-scm.com/book/zh/v2)查缺补漏；
+5. 执行 `reset --hard`、rebase 或历史清理前，先阅读对应章节的风险说明。
 
-```PowerShell
+## 开始学习
+
+- [完整目录](SUMMARY.md)
+- [基础篇](Git/01-初识-Git.md)
+- [GitHub 协作](GitHub/01-向他人项目贡献.md)
+- [高级篇](Advanced/README.md)
+
+提交文档前运行：
+
+```powershell
+python check_docs.py
+```
+
+```powershell
 # 这条是注释
 $ 这条是命令
   这条是命令的输出内容
