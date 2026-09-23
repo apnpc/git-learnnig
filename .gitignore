@@ -42,3 +42,10 @@ __pycache__/
 
 # Node modules (if needed in future)
 node_modules/
+
+# GitBook
+_book/
+.grunt/
+*.epub
+*.mobi
+*.pdf
